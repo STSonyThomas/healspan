@@ -1,0 +1,301 @@
+const randomArray = [
+    {
+      "id": "CLM001",
+      "Name": "John Doe",
+      "Ailment": "Headache",
+      "SLA": 3,
+      "pTAT": 5,
+      "Stage": "Processing",
+      "Status": "Pending",
+      "approvedAmount": 1000,
+      "Hospital": "ABC Hospital"
+    },
+    {
+      "id": "CLM002",
+      "Name": "Jane Smith",
+      "Ailment": "Back pain",
+      "SLA": 5,
+      "pTAT": 3,
+      "Stage": "Approval",
+      "Status": "Approved",
+      "approvedAmount": 2500,
+      "Hospital": "XYZ Hospital"
+    },
+    {
+      "id": "CLM003",
+      "Name": "Michael Johnson",
+      "Ailment": "Fever",
+      "SLA": 2,
+      "pTAT": 4,
+      "Stage": "Processing",
+      "Status": "Pending",
+      "approvedAmount": 800,
+      "Hospital": "123 Medical Center"
+    },
+    {
+      "id": "CLM004",
+      "Name": "Emily Williams",
+      "Ailment": "Sprained ankle",
+      "SLA": 4,
+      "pTAT": 2,
+      "Stage": "Approval",
+      "Status": "Approved",
+      "approvedAmount": 1500,
+      "Hospital": "XYZ Hospital"
+    },
+    {
+      "id": "CLM005",
+      "Name": "Robert Brown",
+      "Ailment": "Migraine",
+      "SLA": 3,
+      "pTAT": 3,
+      "Stage": "Processing",
+      "Status": "Pending",
+      "approvedAmount": 1200,
+      "Hospital": "ABC Hospital"
+    },
+    {
+      "id": "CLM006",
+      "Name": "Olivia Davis",
+      "Ailment": "Allergy",
+      "SLA": 4,
+      "pTAT": 2,
+      "Stage": "Approval",
+      "Status": "Approved",
+      "approvedAmount": 1800,
+      "Hospital": "XYZ Hospital"
+    },
+    {
+      "id": "CLM007",
+      "Name": "William Martinez",
+      "Ailment": "Stomach ache",
+      "SLA": 2,
+      "pTAT": 5,
+      "Stage": "Processing",
+      "Status": "Pending",
+      "approvedAmount": 950,
+      "Hospital": "123 Medical Center"
+    },
+    {
+      "id": "CLM008",
+      "Name": "Sophia Thompson",
+      "Ailment": "Sinusitis",
+      "SLA": 5,
+      "pTAT": 4,
+      "Stage": "Approval",
+      "Status": "Approved",
+      "approvedAmount": 2000,
+      "Hospital": "ABC Hospital"
+    },
+    {
+      "id": "CLM009",
+      "Name": "James Anderson",
+      "Ailment": "Sore throat",
+      "SLA": 3,
+      "pTAT": 2,
+      "Stage": "Processing",
+      "Status": "Pending",
+      "approvedAmount": 1100,
+      "Hospital": "XYZ Hospital"
+    },
+    {
+        "id": "CLM010",
+        "Name": "Emma Clark",
+        "Ailment": "Influenza",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1300,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM011",
+        "Name": "Alexander Rodriguez",
+        "Ailment": "Fractured arm",
+        "SLA": 5,
+        "pTAT": 2,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1750,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM012",
+        "Name": "Isabella Wilson",
+        "Ailment": "Common cold",
+        "SLA": 3,
+        "pTAT": 4,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 900,
+        "Hospital": "123 Medical Center"
+      },
+      {
+        "id": "CLM013",
+        "Name": "Noah Taylor",
+        "Ailment": "Eye infection",
+        "SLA": 2,
+        "pTAT": 5,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 950,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM014",
+        "Name": "Mia Hernandez",
+        "Ailment": "Sprained wrist",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1400,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM015",
+        "Name": "Liam Turner",
+        "Ailment": "Allergic reaction",
+        "SLA": 3,
+        "pTAT": 4,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1150,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM016",
+        "Name": "Charlotte Parker",
+        "Ailment": "Gastritis",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1900,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM017",
+        "Name": "Benjamin Scott",
+        "Ailment": "Indigestion",
+        "SLA": 2,
+        "pTAT": 5,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1050,
+        "Hospital": "123 Medical Center"
+      },
+      {
+        "id": "CLM018",
+        "Name": "Amelia Wright",
+        "Ailment": "Fungal infection",
+        "SLA": 5,
+        "pTAT": 2,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 2200,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM019",
+        "Name": "Henry Morris",
+        "Ailment": "Sprained ankle",
+        "SLA": 3,
+        "pTAT": 4,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1250,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM020",
+        "Name": "Ella Lewis",
+        "Ailment": "Acne",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1600,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM021",
+        "Name": "Daniel Turner",
+        "Ailment": "Sore throat",
+        "SLA": 2,
+        "pTAT": 5,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 950,
+        "Hospital": "123 Medical Center"
+      },
+      {
+        "id": "CLM022",
+        "Name": "Victoria Garcia",
+        "Ailment": "Migraine",
+        "SLA": 3,
+        "pTAT": 4,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1200,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM023",
+        "Name": "Samuel Mitchell",
+        "Ailment": "Back pain",
+        "SLA": 5,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 2400,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM024",
+        "Name": "Grace Young",
+        "Ailment": "Fever",
+        "SLA": 2,
+        "pTAT": 5,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 900,
+        "Hospital": "123 Medical Center"
+      },
+      {
+        "id": "CLM025",
+        "Name": "Joseph Turner",
+        "Ailment": "Headache",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1500,
+        "Hospital": "ABC Hospital"
+      },
+      {
+        "id": "CLM026",
+        "Name": "Chloe Roberts",
+        "Ailment": "Stomach ache",
+        "SLA": 3,
+        "pTAT": 4,
+        "Stage": "Processing",
+        "Status": "Pending",
+        "approvedAmount": 1100,
+        "Hospital": "XYZ Hospital"
+      },
+      {
+        "id": "CLM027",
+        "Name": "Andrew Johnson",
+        "Ailment": "Allergy",
+        "SLA": 4,
+        "pTAT": 3,
+        "Stage": "Approval",
+        "Status": "Approved",
+        "approvedAmount": 1800,
+        "Hospital": "ABC Hospital"
+      }
+]
+
+export default randomArray;
